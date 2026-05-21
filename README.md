@@ -1,70 +1,63 @@
-# POTD - Problem of the Day Solutions
+# POTD Solutions Repository
 
-Welcome to the **POTD Repository**! This repository contains comprehensive solutions to daily coding challenges from multiple platforms.
+Welcome to the **Problem of the Day (POTD) Solutions** repository! This repository serves as a comprehensive collection of daily problem solutions from two popular competitive programming platforms.
 
-## 📚 Contents
+## 📋 Overview
 
-This repository includes solutions for:
+This repository contains organized solutions for:
 
-- **GFG POTD** - GeeksforGeeks Problem of the Day
-- **Unstop POTD** - Unstop Platform Problem of the Day
+- **GeeksforGeeks (GFG)** - Daily Problem of the Day challenges
+- **Unstop** - Daily Problem of the Day challenges
 
-## 🎯 Purpose
-
-The primary goal of this repository is to:
-- Provide well-structured solutions to daily coding challenges
-- Help developers practice and improve their problem-solving skills
-- Serve as a reference for different algorithmic approaches
-- Build consistency in daily coding practice
+Each solution is carefully structured and documented to help you understand the problem-solving approach and implementation details.
 
 ## 📁 Repository Structure
 
 ```
 POTD/
-├── GFG POTD/
-│   └── Solutions organized by date
-├── Unstop POTD/
-│   └── Solutions organized by date
+├── GFG_POTD/
+│   └── May/
+│       ├── 21-05-26.txt
+│       └── ...
+├── Unstop_POTD/
+│   └── May/
+│       ├── 21-05-26.txt
+│       └── ...
 └── README.md
 ```
 
+Solutions are organized by platform and month for easy navigation and reference.
+
+## 🎯 Purpose
+
+This repository aims to:
+- Provide clean and efficient solutions to daily coding challenges
+- Offer a resource for learning different problem-solving techniques
+- Build a personal knowledge base for competitive programming practice
+- Help aspiring developers improve their coding skills
+
+## 📚 Content
+
+Each problem solution typically includes:
+- Problem statement and explanation
+- Algorithm approach and complexity analysis
+- Well-commented source code
+- Test cases and examples
+
 ## 🚀 Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Aditya2964/POTD.git
-   cd POTD
-   ```
-
-2. Navigate to the desired folder (GFG POTD or Unstop POTD) to explore solutions.
-
-3. Each solution file is named with the date (DD-MM-YY format) for easy reference.
+1. Browse the folders organized by platform (GFG_POTD or Unstop_POTD)
+2. Navigate to the desired month to find the problem solution
+3. Review the solution and understand the approach
+4. Practice by solving similar problems
 
 ## 💡 How to Use
 
-- Browse through the folders to find solutions for specific dates
-- Review the code and understand the approach used
-- Compare different problem-solving strategies
-- Use as a reference while practicing similar problems
-
-## 🤝 Contributing
-
-If you'd like to improve existing solutions or add new ones:
-1. Fork the repository
-2. Create a feature branch
-3. Make your improvements
-4. Submit a pull request
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 📧 Contact
-
-For questions or suggestions, feel free to reach out via GitHub issues.
+Feel free to use this repository as a reference while solving POTD challenges. It's recommended to:
+- Attempt the problem first independently
+- Then refer to the solution for comparison
+- Analyze different approaches and optimize further
 
 ---
 
 **Happy Coding!** 🎉
-
-*Last Updated: May 2026*
