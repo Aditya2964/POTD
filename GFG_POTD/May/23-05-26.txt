@@ -1,0 +1,28 @@
+
+
+class Solution {
+  public:
+  
+    // Helper function
+    int solve(Node* root) {
+        if (root == NULL)
+            return 0;
+        
+        // Store original value
+        int old_val = root->data;
+        
+        // Recursively get sum of left and right subtrees
+        int leftSum = solve(root->left);
+        int rightSum = solve(root->right);
+        
+        // Update current node with sum of left & right subtree
+        root->data = leftSum + rightSum;
+        
+        // Return total sum including original node value
+        return root->data + old_val;
+    }
+  
+    void toSumTree(Node *root) {
+        solve(root);
+    }
+};
