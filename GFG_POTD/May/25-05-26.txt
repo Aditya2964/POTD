@@ -1,0 +1,14 @@
+class Solution {
+  public:
+    bool checkElements(int start, int end, vector<int> &arr) {
+        unordered_set<int> pool(arr.begin(), arr.end());
+
+        for (int i = start; i <= end; i++) {
+            if (pool.find(i) == pool.end()) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+};
