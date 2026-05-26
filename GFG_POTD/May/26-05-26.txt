@@ -1,0 +1,17 @@
+class Solution {
+  public:
+    int minToggle(vector<int>& arr) {
+        int ones = 0;
+        int flips = 0;
+
+        for (int num : arr) {
+            if (num == 1) {
+                ones++;
+            } else {
+                flips = min(flips + 1, ones);
+            }
+        }
+
+        return flips;
+    }
+};
